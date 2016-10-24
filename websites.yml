@@ -1,0 +1,7 @@
+test1:
+  ssh_repos: git@github.com:ddalu5/test1.git
+  dir_name: test1
+  mysql_db: test1_db
+  mysql_login: test1_us
+  mysql_password: passPasspAsspaSSPASS888
+
