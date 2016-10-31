@@ -17,7 +17,7 @@ def create_database(db_name, db_user):
     :param db_name: string
     :param db_user: string
     """
-    mysql_execute('create database ' + db_name + ';')
+    mysql_execute('create database ' + db_name + ' CHARACTER SET utf8 COLLATE utf8_general_ci;')
     mysql_execute('grant all privileges on ' + db_name + '.* to ' +
                   db_user + '@\'localhost\';')
 
